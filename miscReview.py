@@ -7,12 +7,12 @@ def main():
 
 
 def problem1():
-    userInput = ""
+    userInput = "" # asking fo user inpout and calling it
     while userInput !="quit":
         print(userInput)
         userInput= input("Name some of you favorite role models. When No one else seems to impress you enter 'quit'")
         if userInput.lower() == "quit":
-            break
+            break # made it quit
 
 
 
@@ -26,9 +26,9 @@ def problem1():
 
 def problem2():
 
-    def Problem2Helper(num1,num2,num3,operation):
+    def Problem2Helper(num1,num2,num3,operation):  # setting my parameters
         if operation == "ADD":
-            result = (num1 + num2 + num3)
+            result = (num1 + num2 + num3)  # comparing it
         elif operation == "PROD":
             result= (num1 *num2 *num3)
         elif operation == "AVG":
